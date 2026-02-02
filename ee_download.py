@@ -15,10 +15,10 @@ def setGeom(*coords):
 
     # границы по пространству
     if not coords:
-        minLon = 96.5
-        maxLon = 114
-        minLat = 46.5
-        maxLat = 57  # задаём охват нужных данных - по умолчанию на Байкал
+        minLon = 31
+        maxLon = 37
+        minLat = 44
+        maxLat = 46  # задаём охват нужных данных - по умолчанию на Байкал
     else:
         minLon = coords[0]
         maxLon = coords[1]
