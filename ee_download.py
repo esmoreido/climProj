@@ -66,5 +66,5 @@ def getCMIP6(dateStart, dateEnd, geom, collection, home):
 
 
 if __name__ == "__main__":
-    getCMIP6('1950-01-01', '1950-12-31', setGeom(), 'NASA/GDDP-CMIP6', 'd:/CMIP6/krym')
+    getCMIP6('1990-01-01', '2015-12-31', setGeom(), 'NASA/GDDP-CMIP6', 'd:/CMIP6/krym')
 
