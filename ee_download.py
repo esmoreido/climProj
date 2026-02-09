@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 import calendar
+import asyncio
 import geemap
 import ee
 from datetime import date, timedelta
