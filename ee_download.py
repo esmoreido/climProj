@@ -66,5 +66,7 @@ def getCMIP6(dateStart, dateEnd, geom, collection, home):
 
 
 if __name__ == "__main__":
-    getCMIP6('1950-01-01', '1950-12-31', setGeom(), 'NASA/GDDP-CMIP6', 'd:/CMIP6/krym')
+    for year in range(1991, 2016):
+        print(year)
+        getCMIP6(str(year) + '-01-01', str(year) + '-12-31', setGeom(), 'NASA/GDDP-CMIP6', 'd:/EcoMeteo/CMIP6/krym')
 
